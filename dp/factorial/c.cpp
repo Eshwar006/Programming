@@ -8,6 +8,7 @@ int fact(int n){
 }
 int main(void) {
 	// your code goes here
+	int i;
 	for(i=2;i<100000;i++){
 		dp[i] = -1;
 	}
